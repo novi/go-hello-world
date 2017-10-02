@@ -1,23 +1,53 @@
 {
 	"ImportPath": "go-hello-world",
-	"GoVersion": "go1.5.3",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v79",
 	"Deps": [
 		{
 			"ImportPath": "github.com/IBM-Bluemix/cf_deployment_tracker_client_go",
 			"Rev": "580644454e98381d96dd747b4c1370d1d21a9950"
 		},
 		{
+			"ImportPath": "github.com/gin-contrib/sse",
+			"Rev": "22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae"
+		},
+		{
 			"ImportPath": "github.com/gin-gonic/gin",
-			"Comment": "v1.0rc1-148-g52fcc5d",
-			"Rev": "52fcc5dbf6e94df33ad313858fb94b713e9d1b4a"
+			"Comment": "v1.2-117-gb8b6831",
+			"Rev": "b8b68314faa067acae5b17c828127b04af51ebe2"
 		},
 		{
-			"ImportPath": "github.com/manucorporat/sse",
-			"Rev": "fe6ea2c8e398672518ef204bf0fbd9af858d0e15"
+			"ImportPath": "github.com/gin-gonic/gin/binding",
+			"Comment": "v1.2-117-gb8b6831",
+			"Rev": "b8b68314faa067acae5b17c828127b04af51ebe2"
 		},
 		{
-			"ImportPath": "github.com/mattn/go-colorable",
-			"Rev": "40e4aedc8fabf8c23e040057540867186712faa5"
+			"ImportPath": "github.com/gin-gonic/gin/json",
+			"Comment": "v1.2-117-gb8b6831",
+			"Rev": "b8b68314faa067acae5b17c828127b04af51ebe2"
+		},
+		{
+			"ImportPath": "github.com/gin-gonic/gin/render",
+			"Comment": "v1.2-117-gb8b6831",
+			"Rev": "b8b68314faa067acae5b17c828127b04af51ebe2"
+		},
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Rev": "130e6b02ab059e7b717a096f397c5b60111cae74"
+		},
+		{
+			"ImportPath": "github.com/json-iterator/go",
+			"Comment": "1.0.2-6-gabe3c40",
+			"Rev": "abe3c4016bd3f50fa9c5b0e909641e2b8370b0cf"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-isatty",
+			"Comment": "v0.0.3-1-ga5cdd64",
+			"Rev": "a5cdd64afdee435007ee3e9f6ed4684af949d568"
+		},
+		{
+			"ImportPath": "github.com/moul/http2curl",
+			"Rev": "9ac6cf4d929b2fa8fd2d2e6dec5bb0feb4f4911d"
 		},
 		{
 			"ImportPath": "github.com/parnurzeal/gorequest",
@@ -25,17 +55,30 @@
 			"Rev": "21a6e64ff1eafbfd8a1f8de5c1fe1d39bb7a63d7"
 		},
 		{
-			"ImportPath": "golang.org/x/net/context",
-			"Rev": "47990a1ba55743e6ef1affd3a14e5bac8553615d"
+			"ImportPath": "github.com/pkg/errors",
+			"Comment": "v0.8.0-6-g2b3a18b",
+			"Rev": "2b3a18b5f0fb6b4f9190549597d3f962c02bc5eb"
+		},
+		{
+			"ImportPath": "github.com/ugorji/go/codec",
+			"Rev": "54210f4e076c57f351166f0ed60e67d3fca57a36"
 		},
 		{
 			"ImportPath": "golang.org/x/net/publicsuffix",
 			"Rev": "47990a1ba55743e6ef1affd3a14e5bac8553615d"
 		},
 		{
-			"ImportPath": "gopkg.in/bluesuncorp/validator.v5",
-			"Comment": "v5.12",
-			"Rev": "d5acf1dac43705f8bfbb71d878e290e2bed3950b"
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "314a259e304ff91bd6985da2a7149bbf91237993"
+		},
+		{
+			"ImportPath": "gopkg.in/go-playground/validator.v8",
+			"Comment": "v8.18.2",
+			"Rev": "5f1438d3fca68893a817e4a66806cea46a9e4ebf"
+		},
+		{
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "eb3733d160e74a9c7e442f435eb3bea458e1d19f"
 		}
 	]
 }
